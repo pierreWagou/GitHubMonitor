@@ -8,6 +8,7 @@ from collections import Counter
 ###########
 # Errors #
 ##########
+
 class ApiError(Exception):
     """Exception to be raised when API does not return expected response"""
     pass
